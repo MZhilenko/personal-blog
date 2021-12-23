@@ -1,0 +1,70 @@
+.form{
+    margin-top: 3rem;
+
+    &--auth{
+        margin: 0 auto;
+        width: 28rem;
+    }
+}
+
+.form__group{
+    margin-bottom: 1.5rem;
+}
+
+.form__control{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    background: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #3F3F3F;
+
+    font-family: inherit;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: $white;
+
+    &:focus{
+        border-bottom: 1px solid $blue;
+    }
+
+    &--mb{
+        padding-bottom: 1.1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    &::placeholder{
+        color: rgba($white, 0.2);
+    }
+
+    &--textarea{
+        padding-top: 1px;
+        overflow: hidden;
+        height: 30px;
+        resize: none;
+    }
+}
+
+.form__footer{
+
+    &--center{
+        text-align: center;
+    }
+}
+
+.form__footer-list{
+    display: flex;
+    justify-content: center;
+
+    li{
+        margin: 0 0.5rem;
+    }
+
+    a{
+        text-transform: lowercase;
+        color: $white;
+    }
+}
